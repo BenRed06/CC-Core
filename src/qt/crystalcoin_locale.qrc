@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/crystalcoin_bg.qm</file>
+        <file alias="ca">locale/crystalcoin_ca.qm</file>
+        <file alias="cs">locale/crystalcoin_cs.qm</file>
+        <file alias="da">locale/crystalcoin_da.qm</file>
+        <file alias="de">locale/crystalcoin_de.qm</file>
+        <file alias="en">locale/crystalcoin_en.qm</file>
+        <file alias="en_US">locale/crystalcoin_en_US.qm</file>
+        <file alias="eo">locale/crystalcoin_eo.qm</file>
+        <file alias="es">locale/crystalcoin_es.qm</file>
+        <file alias="es_ES">locale/crystalcoin_es_ES.qm</file>
+        <file alias="fi">locale/crystalcoin_fi.qm</file>
+        <file alias="fr_FR">locale/crystalcoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/crystalcoin_hi_IN.qm</file>
+        <file alias="hr">locale/crystalcoin_hr.qm</file>
+        <file alias="hr_HR">locale/crystalcoin_hr_HR.qm</file>
+        <file alias="it">locale/crystalcoin_it.qm</file>
+        <file alias="ja">locale/crystalcoin_ja.qm</file>
+        <file alias="ko_KR">locale/crystalcoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/crystalcoin_lt_LT.qm</file>
+        <file alias="nl">locale/crystalcoin_nl.qm</file>
+        <file alias="pl">locale/crystalcoin_pl.qm</file>
+        <file alias="pt">locale/crystalcoin_pt.qm</file>
+        <file alias="pt_BR">locale/crystalcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/crystalcoin_ro_RO.qm</file>
+        <file alias="ru">locale/crystalcoin_ru.qm</file>
+        <file alias="sk">locale/crystalcoin_sk.qm</file>
+        <file alias="sv">locale/crystalcoin_sv.qm</file>
+        <file alias="tr">locale/crystalcoin_tr.qm</file>
+        <file alias="uk">locale/crystalcoin_uk.qm</file>
+        <file alias="vi">locale/crystalcoin_vi.qm</file>
+        <file alias="zh_CN">locale/crystalcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/crystalcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

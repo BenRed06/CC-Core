@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=crystalcoin
+Comment=crystalcoin P2P Cryptocurrency
+Comment[fr]=crystalcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=crystalcoin, eşten eşe kriptografik sanal para birimi
+Exec=crystalcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/crystalcoin;
+Categories=Office;Finance;

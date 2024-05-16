@@ -1,0 +1,26 @@
+[Unit]
+Description=crystalcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=crystalcoin
+Group=crystalcoin
+
+Type=forking
+PIDFile=/var/lib/crystalcoind/crystalcoind.pid
+
+ExecStart=/usr/bin/crystalcoind -daemon -pid=/var/lib/crystalcoind/crystalcoind.pid \
+          -conf=/etc/crystalcoin/crystalcoin.conf -datadir=/var/lib/crystalcoind
+
+ExecStop=-/usr/bin/crystalcoin-cli -conf=/etc/crystalcoin/crystalcoin.conf \
+         -datadir=/var/lib/crystalcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

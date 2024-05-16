@@ -1,0 +1,26 @@
+# /etc/conf.d/crystalcoind: config file for /etc/init.d/crystalcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/crystalcoin/crystalcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/crystalcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/crystalcoind.pid"
+
+# Where to write crystalcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/crystalcoind"
+
+# User and group to own crystalcoind process
+#BITCOIND_USER="crystalcoin"
+#BITCOIND_GROUP="crystalcoin"
+
+# Path to crystalcoind executable
+#BITCOIND_BIN="/usr/bin/crystalcoind"
+
+# Nice value to run crystalcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
